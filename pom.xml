@@ -17,6 +17,7 @@
         <mybatis.version>3.3.0</mybatis.version>
         <spring.version>4.2.6.RELEASE</spring.version>
         <mybatis.spring.version>1.2.2</mybatis.spring.version>
+        <mysql.driver.version>5.1.6</mysql.driver.version>
     </properties>
 
 </project>

@@ -20,11 +20,7 @@
     <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
         <property name="dataSource" ref="dataSource"/>
         <property name="configLocation" value="mybatis.xml"/>
-        <!--<property name="mapperLocations">-->
-            <!--<list>-->
-                <!--<value>classpath*:com/yc256/smart/dao/SmartMemberMapper.xml</value>-->
-            <!--</list>-->
-        <!--</property>-->
+        <!--<property name="mapperLocations" value="classpath*:com/yc256/smart/dao/*.xml"/>-->
     </bean>
 
      <!--Mybatis Mapper Scanner Dao 自动扫描-->

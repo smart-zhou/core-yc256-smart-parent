@@ -10,8 +10,8 @@
         <setting name="cacheEnabled" value="false" />
     </settings>
     <!-- 以下内容不再需要手动配置  已经自动映射 -->
-    <mappers>
-        <!-- <mapper resource="com/gfan/api/framework/model/sqlMapper/TestuserMapper.xml" /> -->
-    </mappers>
+    <!--<mappers>-->
+        <!--&lt;!&ndash; <mapper resource="com/gfan/api/framework/model/sqlMapper/TestuserMapper.xml" /> &ndash;&gt;-->
+    <!--</mappers>-->
 
 </configuration>

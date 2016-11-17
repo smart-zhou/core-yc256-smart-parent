@@ -6,6 +6,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>core-yc256-smart-dao</module>
+        <module>core-yc256-smart-invoke</module>
     </modules>
 
     <groupId>com.yc256.smart</groupId>
@@ -22,12 +23,6 @@
     <build>
         <!-- 打包编译时，指定需要打包的文件资源 -->
         <resources>
-            <resource>
-                <directory>src/main/java</directory>
-                <includes>
-                    <include>**/*.xml</include>
-                </includes>
-            </resource>
             <resource>
                 <directory>src/main/resources</directory>
                 <includes>

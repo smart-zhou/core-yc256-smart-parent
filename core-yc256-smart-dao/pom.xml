@@ -37,6 +37,11 @@
             <artifactId>mysql-connector-java</artifactId>
             <version>${mysql.driver.version}</version>
         </dependency>
+        <dependency>
+            <groupId>com.yc256.smart</groupId>
+            <artifactId>core-yc256-smart-api</artifactId>
+            <version>${smart.version}</version>
+        </dependency>
 
     </dependencies>
 

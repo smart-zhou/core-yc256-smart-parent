@@ -7,6 +7,7 @@
     <modules>
         <module>core-yc256-smart-dao</module>
         <module>core-yc256-smart-invoke</module>
+        <module>core-yc256-smart-api</module>
     </modules>
 
     <groupId>com.yc256.smart</groupId>
@@ -19,6 +20,7 @@
         <spring.version>4.2.6.RELEASE</spring.version>
         <mybatis.spring.version>1.2.2</mybatis.spring.version>
         <mysql.driver.version>5.1.6</mysql.driver.version>
+        <smart.version>1.0.0-SNAPSHOT</smart.version>
     </properties>
     <build>
         <!-- 打包编译时，指定需要打包的文件资源 -->
